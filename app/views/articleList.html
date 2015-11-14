@@ -1,0 +1,25 @@
+<div ng-init="loadArticles()"/>
+	<article class="markdown-body">
+		<h1><img src="img/circle-icons/full-color/png/64px/quote.png"><img/> blog<small>, {{articles.length}} articles in this selection</small></h1>
+	<div ng-repeat="article in articles">
+			<h2 class="title"><a href="#/article/{{article.fileName}}">{{article.metaData.title}}</a></h2>
+			<div class="articleMetaData"> 
+				<span class="glyphicon glyphicon-calendar"</span> {{article.metaData.dateJavaScript | date}} 
+				| <span class="glyphicon glyphicon-tags"</span> 
+				<div style="display:inline" ng-repeat="tag in article.metaData.tagsArray"> 
+					<a href="#/articles/tag/{{tag}}">{{tag}},</a>
+				</div>
+				| <span class="glyphicon glyphicon-comment"</span> 15 
+				<div style="display:inline" ng-show="article.quickEditLink != null">
+						| <span class="glyphicon glyphicon-edit"</span> <a href={{article.quickEditLink}}>edit</a>
+				</div>
+			</div>
+			<div ng-bind-html="toTrustedHtml(article.preview)"></div>
+			<a href="#/article/{{article.fileName}}">
+				<button type="button" class="btn btn-default pull-right">View full post</button>
+			</a>
+			<br>
+			<br>
+	</div>
+		</article> 
+</div>

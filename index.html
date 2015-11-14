@@ -1,0 +1,77 @@
+<!doctype html>
+<html ng-app="bnyBlogApp">
+<head>
+	<meta charset="utf-8">
+	<title>bny.io ツ★</title>
+	<link rel="stylesheet" href="css/bny.css">
+	<link rel="stylesheet" href="css/github-markdown.css">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body ng-controller="MainController">
+	<div id="wrapper">
+
+		<!-- Sidebar -->
+		<div id="sidebar-wrapper">
+			<div> 
+				<img class="sidebar-logo" src="img/sir2.png"></img>
+			</div>
+			<div class="navigation-title">bny.io ツ★</div>
+			<br>
+			<br>
+			<br>
+			<nav id="main-nav">
+				<ul class="main-navigation">
+						<li><a href="#/articles">blog</a></li>
+						<li><a href="#/projects/">projects</a></li>
+						<li><a href="#/favs">favs</a></li>
+						<li><a href="#/about/">about</a></li>
+				</ul>
+			</nav>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="navigation-icon-bar">
+				<a href="mailto:bennygr@gmx.net"><img src="img/90-Social-Media-Vector-Icons/Png/96px/Rounded/mail-dreamstale47.png"></img></a>
+				<a href="http://bny.io"><img src="img/90-Social-Media-Vector-Icons/Png/96px/Rounded/feed-dreamstale27.png"></img></a>
+				<a href="https://github.com/bennygr"><img src="img/90-Social-Media-Vector-Icons/Png/96px/Rounded/github2-dreamstale35.png"></img></a>
+				<a href="https://www.flickr.com/photos/96205760@N03/"><img src="img/90-Social-Media-Vector-Icons/Png/96px/Rounded/flickr-dreamstale30.png"></img></a>
+				<a href="http://steamcommunity.com/profiles/76561198014995721"><img src="img/90-Social-Media-Vector-Icons/Png/96px/Rounded/steam-dreamstale65.png"></img></a>
+			</div>
+		</div>
+		<!-- /#sidebar-wrapper -->
+
+		<!-- Page Content -->
+		<div id="page-content-wrapper">
+			<div class="container-fluid">
+				<div class="ng-view"/>
+			</div>
+		</div>
+		<!-- /#page-content-wrapper -->
+
+		<!-- Fork me on github -->
+		<a href="https://github.com/bennygr/bny">
+			<img style="position: absolute; top: 0; right: 0; border: 0; width: 149px; height: 149px;" 
+					 src="http://aral.github.com/fork-me-on-github-retina-ribbons/right-graphite@2x.png" 
+					 alt="Fork me on GitHub">
+		</a>
+	</div>
+	<!-- /#wrapper -->
+
+</body>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-resource/angular-resource.min.js"></script>                                            
+<script src="bower_components/angular-route/angular-route.min.js"></script>                                                  
+<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script> 
+<script src="app/app.js"></script>
+<script src="app/resources/article.js"></script>
+<script src="app/resources/articleList.js"></script>
+<script src="app/controller/mainController.js"></script>
+<script src="app/controller/aboutController.js"></script>
+<script src="app/controller/articleController.js"></script>
+<script src="app/controller/articleListController.js"></script>
+<script src="app/controller/articleTagListController.js"></script>
+<script src="app/controller/favsController.js"></script>
+</html>
