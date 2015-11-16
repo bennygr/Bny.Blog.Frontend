@@ -1,5 +1,6 @@
 
-bnyBlogApp.controller('articleController', function($scope,$sce,$routeParams,Article){
+bnyBlogApp.controller('articleController', function($scope,$sce,$routeParams,$location,Article){
+	$scope.url = "http://" + $location.host() + $location.path();
 	$scope.loadArticle = function(){
 		var name = $routeParams.param;
 		//Getting the article 

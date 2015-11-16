@@ -1,9 +1,12 @@
 
 //the angular app
-var bnyBlogApp = angular.module('bnyBlogApp',['ngRoute','ngResource','ui.bootstrap']);
+var bnyBlogApp = angular.module('bnyBlogApp',['ngRoute','ngResource','ui.bootstrap','angularUtils.directives.dirDisqus']);
 
 //definig resources
 bnyBlogApp.config(function($routeProvider,$locationProvider){
+
+	//html5 mode
+	$locationProvider.html5Mode(true);
 
 	$routeProvider
 	//article list view
