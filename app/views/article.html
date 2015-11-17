@@ -1,5 +1,5 @@
 <div ng-init="loadArticle()"/>
-		<article class="markdown-body">
+	<article ng-show="article != null && articleLoaded" class="markdown-body">
 			<h1 class="title">{{article.metaData.title}}</h1>
 			<div class="articleMetaData"> 
 				<span class="glyphicon glyphicon-calendar"</span> {{article.metaData.dateJavaScript | date}} 
@@ -19,10 +19,12 @@
 			</a>
 			<br>
 			<br>
+			<br>
 			<dir-disqus disqus-shortname="bennygr"
 									disqus-identifier="{{article.fileName}}"
 									disqus-title="{{article.metaData.title}}"
-									disqus-url="{{url}}">
+									disqus-url="{{url}}"
+									ready-to-bind="{{articleLoaded}}">
 			</dir-disqus>
 			<br>
 			<br>
@@ -30,5 +32,7 @@
 				<button type="button" class="btn btn-default pull-right">go back</button>
 			</a>
 		</article> 
-
+		<article ng-show="article == null" class="markdown-body">
+		<h1>Article not found</h1>
+		</article>
 	</div>
