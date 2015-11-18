@@ -30,6 +30,12 @@ bnyBlogApp.config(function($routeProvider,$locationProvider){
 		templateUrl: 'app/views/article.html',
 		controller:  'articleController'
 	})
+
+	//article preview list view by preview code
+	.when('/article/preview/:previewCode',{
+		templateUrl: 'app/views/article.html',
+		controller:  'articlePreviewController'
+	})
 	
 	//my mosted love software
 	.when('/favs',{
