@@ -46,7 +46,7 @@
 		<!-- Page Content -->
 		<div id="page-content-wrapper">
 			<div class="container-fluid">
-				<div class="ng-view"/>
+				<div class="ng-view" autoscroll="true"> </div>
 			</div>
 		</div>
 		<!-- /#page-content-wrapper -->
@@ -59,14 +59,15 @@
 		</a>
 	</div>
 	<!-- /#wrapper -->
-
 </body>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/angular-resource/angular-resource.min.js"></script>                                            
 <script src="bower_components/angular-route/angular-route.min.js"></script>                                                  
 <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script> 
 <script src="bower_components/angular-utils-disqus/dirDisqus.js"></script> 
 <script src="app/app.js"></script>
+<script src="app/directives/angular-disqus-count.js"></script>
 <script src="app/resources/article.js"></script>
 <script src="app/resources/articleList.js"></script>
 <script src="app/resources/articlePreview.js"></script>

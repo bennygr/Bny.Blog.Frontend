@@ -1,3 +1,4 @@
+<script id="dsq-count-scr" ng-src="//bennygr.disqus.com/count.js"></script>
 <div ng-init="loadArticles()"/>
 	<article class="markdown-body">
 		<h1><img src="img/circle-icons/full-color/png/64px/quote.png"><img/> blog<small>, {{articles.length}} articles in this selection</small></h1>
@@ -9,7 +10,8 @@
 				<div style="display:inline" ng-repeat="tag in article.metaData.tagsArray"> 
 					<a href="#/articles/tag/{{tag}}">{{tag}},</a>
 				</div>
-				| <span class="glyphicon glyphicon-comment"</span> 15 
+				| <span class="glyphicon glyphicon-comment"</span> 
+				<a href="/article/{{article.fileName}}#comments" class="disqus-comment-count" data-disqus-identifier="{{article.fileName}}"></a>
 				<div style="display:inline" ng-show="article.quickEditLink != null">
 						| <span class="glyphicon glyphicon-edit"</span> <a href={{article.quickEditLink}}>edit</a>
 				</div>
