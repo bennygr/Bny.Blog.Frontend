@@ -4,10 +4,14 @@
 		  <div ng-show="isPreview" class="alert alert-info" role="alert">
 				This is a preview of the article. 
 				<div class="btn-toolbar pull-right">
-					<button role="button" type="button" class="btn btn-success active pull-right">Publish</button>
+					<button role="button" type="button" class="btn btn-success active pull-right" ng-click="publishArticle()">Publish</button>
 					<a role="button" href="javascript:window.location.href=window.location.href"
 												   class="btn btn-info pull-right active">Refresh</a>
 				</div	>
+			</div>
+		  <div ng-show="publishError != null" class="alert alert-danger" role="alert">
+				Error publishing the article. Error code {{publishError}}
+				<a class="close" ng-click="clearError()">×</a>
 			</div>
 			<h1 class="title">{{article.metaData.title}}</h1>
 			<div class="articleMetaData"> 
