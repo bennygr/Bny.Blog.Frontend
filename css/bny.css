@@ -109,7 +109,7 @@
 .navigation-icon-bar{
 	margin-right: auto;
 	margin-left: auto;
-	width: 13em;
+	width: 16em;
 }
 .navigation-icon-bar img{
 	width: 32px;
@@ -194,4 +194,9 @@ h2 a:visited {
 h2 a:hover {
 	color: #5474F5;
 	text-decoration: none !important;
+}
+
+.blog-img {
+	width:	85%;
+	height: auto;
 }
