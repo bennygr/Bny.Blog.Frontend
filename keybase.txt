@@ -1,0 +1,70 @@
+==================================================================
+https://keybase.io/bennygr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+* I am an admin of http://bny.io
+* I am bennygr (https://keybase.io/bennygr) on keybase.
+* I have a public key with fingerprint 1077 24BE FA15 EC51 FB3B  BEB8 D928 7DA8 4EC8 F708
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010168c820f3d26325b41d97421fe4cf0acf2380cab7e59c280a25267951cf6993e10a",
+            "fingerprint": "107724befa15ec51fb3bbeb8d9287da84ec8f708",
+            "host": "keybase.io",
+            "key_id": "d9287da84ec8f708",
+            "kid": "010168c820f3d26325b41d97421fe4cf0acf2380cab7e59c280a25267951cf6993e10a",
+            "uid": "d139711eae369be7300089271be3fa19",
+            "username": "bennygr"
+        },
+        "service": {
+            "hostname": "bny.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1473080779,
+    "expire_in": 157680000,
+    "prev": "39b23abc268ceae16b778b4387428acd620d1527916a19123cd0f6f33d9bb0fa",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtUltIFVEUvZqpWZr2IsEkRsgMiXPOvK+EFmXgh4+Cgj66zJk5cx3Umevc8XEV
+s8A+oiiTjCSEpEiLhCgpeogkWYJoiaJY/iQlZkV5JUSixxnNvz77OpzNWmuvtdiN
+8as8kRETO+s68vsXYiMGPmLP0cGy4VoGW1qI8dYyJWTpIaUaCTq+EkNjvAyAAAqS
+KiGgsxoSWMRjDmqyyCGoE07VgaLqiJWAqmCR8LKKJKAgHgmizENVF2SZJRAoTCaj
+G6af2AHbMB0qC4EoIg4TXYE8UXmoYxZjgiVNRpKoKRJHVEkXgUSJxVbQZVBzWAmS
+3YZFZ/TjW7L3D/x/9l2xvAeysgghUQgryJiILABAkpEIMWFpBtkFBoltKmWEojEx
+zZDfZuoyGTqsNFTi9uoGWQGYoeUgAdtyLNUqpbNixwl4XYoTCriYKoJ9f9k+bJga
+7Y8SKokdNCyT8UKKVB3DlYMc9SPRRuVMhlQHDJv4DBfBi4JEfQJ3DamkkqyMEatg
+FdFmaJRCKGBRlDDHSrQXSVE1AQEN8kiUoUBDQcSqGtAFnWU1GWOgu30ESblpMV6O
++lT8VDNo+E3FqbAJUxd3JiIlyhMR6YleHeleliduTeLKuYlbY35lh9/UNJesC9Y1
+tLSODG1/klwhf5mDQv3znPz1oZu9U9qptJwLF8+eSO/OTg2lXO3uaiscnp64fj/6
+Um7++GRC+tc7eQ1RL2ayXtaOF70bKM1qvZWZMV/tP/DtdFRLwp7OxbDvyq6CHe0z
+I8fx1Kvwpmgla3/MvbX+psWp3tyTE0pDwY25zSNWV/L5sMecPDy7bW/udNzchk++
+toPyFrSvPjyf9rBv4Br4nfT5wbP2DzXvz9lluYHbLYNE8Y2O5h8aGQvkzTKx5Y+T
+EJNQ82OhaOhyT3/To6qearyxL5r/nnQkPVFbQH2L5rHUrqf6WNlrLuNtfMdUY+dP
+567WzNX8AQ==
+=VoT/
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bennygr
+
+==================================================================
+
+
+
